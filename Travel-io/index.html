@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Travel-io Offical Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light text-dark px-lg-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand fs-2">Travel <span class="text-primary">Io</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link fw-medium me-2">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link fw-medium me-2">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link fw-medium me-2">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link fw-medium me-2">Contact</a>
+            </li>
+          </ul>
+          <a href="login.html" class="btn btn-primary"> Login</a>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="container-fluid p-3"
+      style="background: linear-gradient(0deg, rgba(214,236,250,1) 0%, rgba(255,255,255,1) 125%);"
+    >
+      <div class="container p-lg-3">
+        <div class="row pt-md-3 text-start">
+          <div class="col-md">
+            <h1>fly freely wherever you want</h1>
+            <p class="lead fw-normal">
+              Enter your information and buy a ticket or review the flight
+              schedule!
+            </p>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputSurname" class="form-label">Surname</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputSurname"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  required
+                  placeholder="user@example.com"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputFlightId" class="form-label"
+                  >Flight Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputFlightId"
+                  required
+                  placeholder="111222333444555"
+                />
+              </div>
+              <div class="col-md-12">
+                <label for="inputCity" class="form-label">City</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCity"
+                  required
+                  placeholder="USA Ca..."
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    I have read and I accept the <a href="Terms.html">terms of use</a>
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary text-center">
+                  Find <i class="bi bi-chevron-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md pt-lg-5 pt-xl-0 d-none d-lg-block">
+            <img src="img/Banner.jpg" class="img-fluid mt-lg-5" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="line bg-primary" style="height: 1vh;"></div>
+    <section id="services" class="mb-5 mt-5">
+      <div class="py-5">
+        <div class="container-fluid px-md-5 px-sm-5">
+          <div class="container text-center mb-5">
+            <h2>Services</h2>
+          </div>
+          <div class="row g-4 text-center">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <h1 class="mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      fill="currentColor"
+                      class="bi bi-car-front"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"
+                      />
+                      <path
+                        d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"
+                      />
+                    </svg>
+                  </h1>
+                  <h3 class="card-title mb-3">private vehicle</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure, quas quidem possimus dolorum esse eligendi?
+                  </p>
+                  <a href="lost.html" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <h1 class="mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      fill="currentColor"
+                      class="bi bi-buildings"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"
+                      />
+                      <path
+                        d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"
+                      />
+                    </svg>
+                  </h1>
+                  <h3 class="card-title mb-3">Hotel</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure, quas quidem possimus dolorum esse eligendi?
+                  </p>
+                  <a href="lost.html" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <h1 class="mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="40"
+                      height="40"
+                      fill="currentColor"
+                      class="bi bi-globe-americas"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
+                      />
+                    </svg>
+                  </h1>
+                  <h3 class="card-title mb-3">global service</h3>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure, quas quidem possimus dolorum esse eligendi?
+                  </p>
+                  <a href="lost.html" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="line bg-primary" style="height: 1vh;"></div>
+    <section id="about" class="bg-dark text-light">
+      <div class="container">
+        <div class="container text-center py-3">
+          <h2 class="py-4">About us</h2>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md d-flex flex-column justify-content-center">
+            <h2>How did we start our company life?</h2>
+            <p>
+              Our company, which was founded in 1925, has been meeting with
+              references and working with them since 1928.
+            </p>
+          </div>
+          <div class="col-md">
+            <img src="img/default (1).jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+        <div class="row mb-5 pt-5">
+          <div class="col-md">
+            <img src="img/default.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md d-flex flex-column justify-content-center">
+            <h2>Our first partners</h2>
+            <p>
+              Our first business partner was Turkish Airlines. We have been
+              working together since 1929.
+            </p>
+            <p>
+              Later, American Airways joined us with the partnership agreement
+              we signed in 1932.
+            </p>
+          </div>
+        </div>
+        <div class="row mb-5 pt-5">
+          <div class="col-md d-flex flex-column justify-content-center">
+            <h2>Our partners and us</h2>
+            <p>
+              We provided assistance to our partners in every way and always
+              stood by them no matter what. In this way, we further increased
+              our partners' trust in us.
+            </p>
+          </div>
+          <div class="col-md">
+            <img
+              src="img/Our-THY-our-story-a-retro-and-vintage-looking-old-plane.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row mb-5 pt-5">
+          <div class="col-md">
+            <div class="row p-3">
+              <div class="col-3">
+                <img
+                  src="img/2019-03-25-09.48.52-2019-pax-awards-winner-logo.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="img/skytrax-world-airline-awards-2015-winner-logo-E5624653EE-seeklogo.com.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="img/SAS-Achieves-Five-Star-Rating-in-Global-APEX-Customer-Ranking-at-2023-APEX-Awards.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex flex-column justify-content-center">
+            <h2>Our awards</h2>
+            <p>
+              Over the years As our company's partners increased, our developing
+              and growing company began to receive awards. When we received our
+              first award, WORLD AIRLINE 2015, our partner number was 28.
+            </p>
+          </div>
+        </div>
+        <div class="row pb-5 pt-5">
+          <div class="col-md">
+            <h2>Our company in today's time</h2>
+            <p>
+              As our number of partners increases, we continue our career as a
+              more trusted and recognized airline company and we are proud of
+              serving our partners.
+            </p>
+          </div>
+          <div class="col-md d-flex flex-column justify-content-center">
+            <img
+              src="img/Male-passenger-spending-time-drinking-tea-in-the-comfortable-environment-of-the-lounge.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="line bg-primary" style="height: 1vh;"></div>
+    <section id="contact" class="p-4 mb-5">
+      <div class="container text-center mb-5">
+        <h2>Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Main Location:</span> 57 Forsyth St NW,
+              Atlanta, GA 30303, USA
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Email:</span>
+              enroll@example.test
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="inputName" required />
+            </div>
+            <div class="col-md-6">
+              <label for="inputSurname" class="form-label">Surname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputSurname"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                required
+                placeholder="user@example.com"
+              />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  I have read and I accept the <a href="privacy.html">Privacy Policy</a>
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary text-center">
+                Send <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="line bg-primary d-none d-lg-block" style="height: 1vh;"></div>
+    <footer class="text-light p-lg-5 p-md-2 d-none d-lg-block" style="background-color: rgb(25, 37, 94);">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 border-end text-center">
+          <div class="container align-items-end">
+            <p class="fs-2">Travel <span class="fs-2 text-primary">Io</span></p>
+            <div class="container g-3" id="social">
+              <a href="#" class="bi bi-twitter mx-2 fs-5"></a>
+              <a href="#" class="bi bi-instagram me-2 fs-5"></a>
+              <a href="#" class="bi bi-linkedin me-2 fs-5"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-mb-9 col-lg-8 d-flex gx-4">
+          <ul class="" style="list-style: none;">
+            <li>
+              <a href="privacy.html" class="text-secondary">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="Terms.html" class="text-secondary">Terms Of Use</a>
+            </li>
+            <li>
+              <a href="faq.html" class="text-secondary">FAQ</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Help Center</a>
+            </li>
+          </ul>
+          <ul class="" style="list-style: none;">
+            <li>
+              <a href="lost.html" class="text-secondary">Jobs</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Legal Notices</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Cookie Preferences</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Media Center</a>
+            </li>
+          </ul>
+          <ul class="" style="list-style: none;">
+            <li>
+              <a href="lost.html" class="text-secondary">Passenger rights</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Corporate Club</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Accessibility</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Promotional Code</a>
+            </li>
+          </ul>
+          <ul class="ms-lg-2 me-lg-2" style="list-style: none;">
+            <li>
+              <a href="lost.html" class="text-secondary">Discounts By Country</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Campaigns</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Sponsorships</a>
+            </li>
+            <li>
+              <a href="lost.html" class="text-secondary">Awards</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid p-2 text-center bg-primary text-light">
+      <p class="fw-medium mt-1">Travel Io &copy; All Rights Reserved.</p>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

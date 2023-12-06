@@ -1,0 +1,120 @@
+body::before{
+    display: block;
+    content: "";
+    height: 50px;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+    border-radius: .3rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #55555573;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555555;
+}
+.nav-link{
+    position: relative;
+    cursor: pointer;
+    padding: 2px 0 ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #fff;
+    text-decoration: none;
+}  
+.nav-link:before, a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 10px;
+    background: rgb(0, 89, 255);
+}  
+.nav-link:before {
+    left: 0;
+}
+.nav-link:after {
+    right: 0;
+    background: rgb(0, 89, 255);
+    transition: width 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+} 
+.nav-link:hover:before {
+    background: rgb(0, 89, 255);
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}  
+.nav-link:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+#social > a{
+    transition: .3s all ease-in-out !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+#social > a:nth-child(1):hover{
+    color: rgb(37, 132, 255) !important;
+}
+#social > a:nth-child(2):hover{
+    color: rgb(219, 37, 255) !important;
+}
+#social > a:nth-child(3):hover{
+    color: rgb(0, 110, 253) !important;
+}
+#hdr{
+    height: 80vh !important;
+}
+@media(width >= 1440px) {
+    #hdr{
+        height: 80vh !important;
+    }
+}
+@media(width >= 1200px) {
+    #hdr{
+        height: 92vh !important;
+    }
+    #hdr .container{
+        padding-top: 5rem !important;
+    }
+}
+@media(width >= 992px) {
+    #hdr{
+        height: 92vh !important;
+    }
+    #hdr .container{
+        padding-top: 1rem !important;
+    }
+}
+
+@media(width >= 768px) {
+    #hdr{
+        height: 92vh !important;
+    }
+    #hdr .container{
+        padding-top: 1rem !important;
+    }
+}
+@media(width >= 576px) {
+    #hdr{
+        height: 88.5vh !important;
+    }
+    #hdr .container{
+        padding-top: 1rem !important;
+    }
+}
+@media(width <= 576px) {
+    #hdr{
+        height: 88.5vh !important;
+    }
+    #hdr .container{
+        padding-top: 10rem !important;
+    }
+}
